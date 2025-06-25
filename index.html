@@ -6,37 +6,56 @@
   <title>KT Mitra Jlamprang</title>
   <style>
     body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; }
-    header { background: #005bbb; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
-    nav a { color: white; margin-left: 1rem; text-decoration: none; font-weight: bold; }
-    .hero  {
-  background: url('foto.png') center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-}
+    header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1rem 2rem; background: #005bbb; color: white;
+    }
+    header div {
+      display: flex; align-items: center;
+    }
+    header img {
+      height: 50px; margin-right: 10px;
+    }
+    nav a {
+      color: white; margin-left: 1rem; text-decoration: none; font-weight: bold;
+    }
+    .hero {
+      background: url('foto.png') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
     .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
-    .hero a { background: white; color: #005bbb; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+    .hero a {
+      background: white; color: #005bbb;
+      padding: 10px 20px; text-decoration: none;
+      border-radius: 5px; font-weight: bold;
+    }
     section { padding: 60px 20px; max-width: 1000px; margin: auto; }
-    .programs, .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-    .card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; background: #f9f9f9; }
+    .programs, .gallery {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;
+    }
+    .card {
+      border: 1px solid #ddd; padding: 20px; border-radius: 8px; background: #f9f9f9;
+    }
     .gallery img { width: 100%; border-radius: 8px; }
     footer { background: #003366; color: white; text-align: center; padding: 20px; }
   </style>
 </head>
 <body>
 
-<header style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background: #005bbb; color: white;">
-  <div style="display: flex; align-items: center;">
-    <img src="logo-kt.png" alt="Logo KT Mitra Jlamprang" style="height:50px; margin-right: 10px;">
-    <h2 style="margin: 0; font-size: 1.5rem;">KT Mitra Jlamprang</h2>
-  </div>
-  <nav>
-    <a href="#tentang" style="color: white; margin-left: 1rem; text-decoration: none; font-weight: bold;">Tentang</a>
-    <a href="#program" style="color: white; margin-left: 1rem; text-decoration: none; font-weight: bold;">Program</a>
-    <a href="#galeri" style="color: white; margin-left: 1rem; text-decoration: none; font-weight: bold;">Galeri</a>
-    <a href="#kontak" style="color: white; margin-left: 1rem; text-decoration: none; font-weight: bold;">Kontak</a>
-  </nav>
-</header>
+  <header>
+    <div>
+      <img src="logo-kt.png" alt="Logo KT Mitra Jlamprang">
+      <h2 style="margin: 0;">KT Mitra Jlamprang</h2>
+    </div>
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#program">Program</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
 
   <div class="hero">
     <h1>Bersama Membangun Generasi Muda</h1>
@@ -77,14 +96,10 @@
 
   <section id="kontak">
     <h2>Hubungi Kami</h2>
-    <p>📍 Alamat: Jl. Jlamprang Raya No.123, Kendal, Jawa Tengah<br>
-       📞 Telepon: 0812-xxxx-xxxx<br>
-       📧 Email: info@mitrajlamprang.org</p>
+    <p>📍 Alamat: eks. kelurahan krapyak kidul<br>
+       📞 Telepon: 0812-2642-6311<br>
+       📧 Email: mitrajlamprang@gmail.com</p>
   </section>
 
   <footer>
-    <p>© 2025 KT Mitra Jlamprang. All rights reserved.</p>
-  </footer>
-
-</body>
-</html>
+    <p>© 2025 KT Mitra Jlamprang. All rights reser
